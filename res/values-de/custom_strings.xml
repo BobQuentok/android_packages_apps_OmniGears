@@ -22,6 +22,7 @@
     <string name="reset">Zurücksetzen</string>
 
     <string name="bars_and_menus_settings">Leisten und Menüs</string>
+	<string name="active_display_settings">Sperrbildschirm-Benachrichtigungen</string>
     <string name="bars_and_menus_category_status_bar_title">Statusleiste</string>
     <string name="status_bar_battery_title">Akkustil</string>
     <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
@@ -36,52 +37,6 @@
     <string name="status_bar_battery_status_circle_percentage">Kreis mit Prozent</string>
     <string name="status_bar_notif_count_title">Benachrichtigungszähler anzeigen</string>
     <string name="status_bar_notif_count_summary">Anzahl der ungelesenen Benachrichtigungen anzeigen</string>
-
-    <string name="status_bar_transparent_on_keyguard_title">Transparenz auf Sperrbildschirm</string>
-    <string name="status_bar_transparent_on_keyguard_summary">Macht die Statusleiste auf dem Sperrbildschirm transparent</string>
-
-    <!-- Lock Screen Shortcuts -->
-    <string name="lockscreen_shortcuts_settings">Sperrbildschirm-Anwendungen</string>
-
-    <string name="lockscreen_target_info">Kreis zur gewünschten Position ziehen, um dort eine Anwendung zu platzieren</string>
-    <string name="lockscreen_target_title">Sperrbildschirm-Anwendung</string>
-    <string name="lockscreen_target_summary">Eigene Sperrbildschirm-Anwendungen ansehen oder ändern</string>
-    <string name="lockscreen_target_reset">Sperrbildschirm-Anwendungen auf Standard zurückgesetzt</string>
-    <string name="lockscreen_target_save">Sperrbildschirm-Anwendungen gespeichert</string>
-    <string name="lockscreen_target_reset_title">Zurücksetzen</string>
-    <string name="lockscreen_target_reset_message">Alle Anwendungen vom Sperrbildschirm löschen und auf Standard zurücksetzen?</string>
-    <string name="lockscreen_target_empty">Leer</string>
-    <string name="lockscreen_target_edit_title">Anwendung und Symbol bearbeiten</string>
-    <string name="lockscreen_target_edit_msg">Gewünschte Anwendung oder Aktivität und das zugehörige Symbol wählen oder ändern</string>
-
-    <!-- Lock screen shortcuts -->
-    <string name="picker_activities">Aktivitäten</string>
-    <string name="select_custom_app_title">Anwendung wählen</string>
-    <string name="select_custom_activity_title">Aktivität wählen</string>
-    <string name="icon_picker_choose_icon_title">Symbol wählen</string>
-    <string name="icon_picker_alarm">Alarm</string>
-    <string name="icon_picker_browser">Browser</string>
-    <string name="icon_picker_calendar">Kalender</string>
-    <string name="icon_picker_camera">Kamera</string>
-    <string name="icon_picker_chrome">Chrome</string>
-    <string name="icon_picker_contacts">Kontakte</string>
-    <string name="icon_picker_email">E-Mail</string>
-    <string name="icon_picker_email2">E-Mail (Holo)</string>
-    <string name="icon_picker_facebook">Facebook</string>
-    <string name="icon_picker_gallery">Galerie</string>
-    <string name="icon_picker_google_small">Google (klein)</string>
-    <string name="icon_picker_googleplus">Google+</string>
-    <string name="icon_picker_googletalk">Hangouts</string>
-    <string name="icon_picker_maps">Maps</string>
-    <string name="icon_picker_movie">Film</string>
-    <string name="icon_picker_music">Musik</string>
-    <string name="icon_picker_nav_normal">Navigation</string>
-    <string name="icon_picker_phone">Telefon</string>
-    <string name="icon_picker_podcast">Podcast</string>
-    <string name="icon_picker_rss">RSS</string>
-    <string name="icon_picker_search">Suche</string>
-    <string name="icon_picker_sms">Nachrichten</string>
-    <string name="icon_picker_twitter">Twitter</string>
 
     <!-- String for IconPicker -->
     <string name="icon_picker_title">Symbolquelle wählen</string>
@@ -106,9 +61,7 @@
     <string name="dialog_test_button">Ausblenden</string>
 
     <!-- Lights settings screen, notification light settings -->
-    <string name="display_lights_settings_title">Bildschirm &amp; LED</string>
-    <string name="lights_category_title">LED</string>
-    <string name="notification_pulse_title">Benachrichtigungs-LED</string>
+	<string name="notification_light_enable">Aktivieren</string>
     <string name="notification_light_general_title">Allgemein</string>
     <string name="notification_light_applist_title">Anwendungen</string>
     <string name="notification_light_phonelist_title">Telefon</string>
@@ -140,8 +93,10 @@
     <string name="battery_low_pulse_title">Bei niedrigem Akkustand pulsieren</string>
     <string name="battery_light_list_title">Farben</string>
     <string name="battery_light_low_color_title">Niedriger Akkustand</string>
-    <string name="battery_light_medium_color_title">Aufladen</string>
-    <string name="battery_light_full_color_title">Vollständig geladen</string>
+    <string name="battery_light_medium_color_title">Aufladen...</string>
+    <string name="battery_light_full_color_title">Geladen (90%)</string>
+	<string name="battery_light_really_full_color_title">Vollständig geladen (100%)</string>
+	<string name="edit_battery_settings">Akku-Einstellungen bearbeiten</string>
 
     <!-- brightness settings -->
     <string name="brightness_settings_title">Helligkeit</string>
@@ -190,6 +145,14 @@
     <string name="auto_brightness_menu_split">Aufteilen</string>
     <string name="auto_brightness_menu_remove">Entfernen</string>
     <string name="sensor_category">Sensor</string>
+	<string name="button_timeout_title">Timeout</string>
+	    <plurals name="button_timeout_time">
+	        <item quantity="one"><xliff:g id="seconds">%d</xliff:g> Sekunde</item>
+	        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> Sekunden</item>
+	    </plurals>
+	    <string name="button_timeout_enabled">Für <xliff:g id="timeout">%s</xliff:g> aktiviert</string>
+	    <string name="button_timeout_disabled">Deaktiviert</string>
+	    <string name="dialog_button_timeout_title">Tastenhelligkeit-Timeout</string>
 
     <!-- button settings -->
     <string name="button_volume_keys_title">Lautstärke</string>
@@ -199,5 +162,119 @@
     <!-- Network speed -->
     <string name="show_network_speed">Netzwerkgeschwindigkeit</string>
     <string name="show_network_speed_summary">Netzwerkgeschwindigkeit in Statusleiste anzeigen</string>
+	
+	<!-- Status Bar Activity Indicators -->
+	<string name="show_activity_indicators_on_status_bar_title">Netzwerkaktivität-Anzeige</string>
+	<string name="show_activity_indicators_on_status_bar_summary">Aktivität der Netzwerkverbindung in Statusleiste anzeigen</string>
+	
+	<!-- Hardware keys -->
+	<string name="button_keys_title">Tasten</string>
+	<string name="keys_bindings_title">Tastenaktionen</string>
+	<string name="button_keys_back_title" >Zurück-Taste</string>
+	<string name="button_keys_home_title" >Home-Taste</string>
+	<string name="button_keys_menu_title" >Menü-Taste</string>
+	<string name="button_keys_assist_title" >Suchen-Taste</string>
+	<string name="button_keys_appSwitch_title" >\"Apps wechseln\"-Taste</string>
+	<string name="keys_enable_custom_title">Eigene Aktionen</string>
+	<string name="keys_back_press_title">Zurück-Taste</string>
+	<string name="keys_back_long_press_title">Zurück-Taste (langes Drücken)</string>
+	<string name="keys_home_press_title">Home-Taste</string>
+	<string name="keys_home_long_press_title">Home-Taste (langes Drücken)</string>
+	<string name="keys_home_double_tap_title">Home-Taste (doppeltes Drücken)</string>
+	<string name="keys_menu_press_title">Menü-Taste</string>
+	<string name="keys_menu_long_press_title">Menü-Taste (langes Drücken)</string>
+	<string name="keys_assist_press_title">Suchen-Taste</string>
+	<string name="keys_assist_long_press_title">Suchen-Taste (langes Drücken)</string>
+	<string name="keys_app_switch_press_title">\"Apps wechseln\"-Taste</string>
+	<string name="keys_app_switch_long_press_title">\"Apps wechseln\"-Taste (langes Drücken)</string>
+	<string name="keys_action_nothing">Keine Aktion</string>
+	<string name="keys_action_menu">Öffnen/Schließen-Menü</string>
+	<string name="keys_action_app_switch">Apps wechseln</string>
+	<string name="keys_action_search">Suchassistent</string>
+	<string name="keys_action_voice_search">Sprachsuche</string>
+	<string name="keys_action_in_app_search">In-App-Suche</string>
+	<string name="keys_action_home">Home-Taste</string>
+	<string name="keys_action_back">Zurück-Taste</string>
+	<string name="keys_action_last_app">Zu letzter App wechseln</string>
+	<string name="keys_action_kill_app">App beenden</string>
+	<string name="keys_action_normal">Normales Drücken</string>
+	<string name="keys_action_long">Langes Drücken</string>
+	<string name="keys_action_double">Doppeltes Drücken</string>
+	<string name="dialog_no_home_key_title">Keine Home-Aktion</string>
+	<string name="no_home_key">Sie haben der \"Home\"-Aktion keine Tasten zugewiesen! Dadurch kann Ihr Gerät unbenutzbar werden!</string>
 
+	<!-- Power Menu Options-->
+	<string name="bars_and_menus_category_power_menu_title">Neustartmenü</string>
+	<string name="power_menu_toggle_screenshot_title">Bildschirmfoto</string>
+	<string name="power_menu_toggle_screenshot_summary">Bildschirmfoto in Neustartmenü anzeigen</string>
+
+	 <!-- Active Display Notifications -->
+	 <string name="ad_settings_title">Sperrbildschirm-Benachrichtigungen</string>
+	 <string name="ad_settings_summary">Einstellungen der bildschirmaktivierenden Benachrichtigungen anpassen</string>
+	 <string name="ad_enable_title">Aktivieren</string>
+	 <string name="ad_enable_summary_on">Benachrichtigungen aktiviert</string>
+	 <string name="ad_enable_summary_off">Benachrichtigungen deaktiviert</string>
+	 <string name="ad_text_title">Benachrichtigungstext</string>
+	 <string name="ad_text_summary">Benachrichtigungstext um den Ring herum anzeigen.</string>
+	 <string name="ad_all_notifications_title">Alle Benachrichtigungen</string>
+	 <string name="ad_all_notifications_summary">Alle Benachrichtigungen anzeigen, inklusive andauernde, nicht löschbare Benachrichtigungen.</string>
+	 <string name="ad_hide_low_priority_title">Unwichtige verbergen</string>
+	 <string name="ad_hide_low_priority_title">Unwichtige verbergen</string>
+	 <string name="ad_hide_low_priority_summary">Benachrichtigungen niedriger Priorität verbergeb, wie jene von Google Now.</string>
+	 <string name="ad_pocket_mode_title">Taschenmodus</string>
+	 <string name="ad_pocket_mode_summary">Bildschirm aktivieren und Benachrichtigungen anzeigen, wenn das Gerät aus der Tasche genommen wird.</string>
+	 <string name="ad_redisplay_title">Benachrichtigungen wiederholen</string>
+	 <string name="ad_timeout_title">Bildschirm-Timeout</string>
+	 <string name="ad_brightness_title">Benachrichtigungshelligkeit</string>
+	 <string name="ad_customizations_title">Anpassungen</string>
+	 <string name="ad_excluded_apps_title">Ausgeschlossene Anwendungen</string>
+	 <string name="ad_excluded_apps_summary">Ausgeschlossene Anwendungen werden den Bildschirm mit ihren Benachrichtigungen nicht aktivieren.</string>
+	 <string name="ad_show_date_title">Datum anzeigen</string>
+	 <string name="ad_show_ampm_title">AM/PM anzeigen</string>
+	 <string name="ad_sunlight_mode_title">Tageslichtmodus</string>
+	 <string name="ad_brightness_summary">Helligkeitsstufe für Benachrichtigungen, wenn die automatische Helligkeit deaktiviert ist.</string>
+	 <string name="ad_show_date_summary">Datum über der Uhrzeit anzeigen</string>
+	 <string name="ad_show_ampm_summary">AM/PM-Anzeige neben der Zeit anzeigen, wenn das 12-Stunden-Format verwendet wird</string>
+	 <string name="ad_sunlight_mode_summary">Farben in Bereichen mit hellem Lichteinfall, zum Beispiel bei direkter Sonneneinstrahlung, umkehren.</string>
+	 <string name="ad_redisplay_never">Nie</string>
+	 <string name="ad_redisplay_1m">1 Minute</string>
+	 <string name="ad_redisplay_5m">5 Minuten</string>
+	 <string name="ad_redisplay_15m">15 Minuten</string>
+	 <string name="ad_redisplay_30m">30 Minuten</string>
+	 <string name="ad_redisplay_1h">1 Stunde</string>
+	 <string name="ad_redisplay_2h">2 Stunden</string>
+	 <string name="ad_redisplay_5h">5 Stunden</string>
+	 <string name="ad_timeout_3s">3 Sekunden</string>
+	 <string name="ad_timeout_5s">5 Sekunden</string>
+	 <string name="ad_timeout_8s">8 Sekunden</string>
+	 <string name="ad_timeout_10s">10 Sekunden</string>
+	 <string name="ad_timeout_15s">15 Sekunden</string>
+	 <string name="ad_timeout_25s">25 Sekunden</string>
+	 <string name="ad_pocket_mode_off">Deaktiviert</string>
+	 <string name="ad_pocket_mode_notifications">Nur Benachrichtigungen</string>
+	 <string name="ad_pocket_mode_always">Immer</string>
+	 <string name="bars_and_menus_category_recent_panel_title" >Kürzliche-Ansicht</string>
+
+	 <!--  Recents clear all -->
+	 <string name="show_recent_clear_all_button_title">\"Alle beenden\"-Schaltfläche</string>
+	 <string name="show_recent_clear_all_button_summary">Schaltfläche zum Beenden aller geöffneten Anwendungen in der Ansicht der kürzlich verwendeten Anwendungen anzeigen</string>
+	 <string name="recent_clear_all_button_location_title">Position der \"Alle beenden\"-Schaltfläche</string>
+	 <string name="recent_clear_all_button_location_summary">Position der \"Alle beenden\"-Schaltfläche festlegen</string>
+	 <string name="recent_clear_all_button_location_top_left">Oben links</string>
+	 <string name="recent_clear_all_button_location_top_right">Oben rechts</string>
+	 <string name="recent_clear_all_button_location_bottom_left">Unten links</string>
+	 <string name="recent_clear_all_button_location_bottom_right">Unten rechts</string>
+
+	 <!-- Contextual Notification Panel Header -->
+	 <string name="notification_drawer_category_title">Benachrichtigungsanzeige</string>
+	 <string name="custom_statusbar_header_title">Kontextuelle Benachrichtigungsanzeigen-Kopfzeile</string>
+	 <string name="custom_statusbar_header_summary">Hintergrund der Benachrichtigungsanzeigen-Kopfzeile auf ein Bild festlegen, basierend auf dem aktuellen Datum und der aktuellen Uhrzeit</string>
+
+	 <!-- Volume default -->
+	 <string name="button_volume_default_none">Nichts</string>
+	 <string name="button_volume_default_ringer">Klingeltonlautstärke</string>
+	 <string name="button_volume_default_media">Medienlautstärke</string>
+	 <string name="button_volume_default_title">Standardlautstärke</string>
+	 <string name="button_volume_default_summary">Lautstärke wählen, die beim Betätigen der Lautstärketasten geändert wird</string>
+		
 </resources>

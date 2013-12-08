@@ -146,13 +146,13 @@
     <string name="auto_brightness_menu_remove">Entfernen</string>
     <string name="sensor_category">Sensor</string>
 	<string name="button_timeout_title">Timeout</string>
-	    <plurals name="button_timeout_time">
-	        <item quantity="one"><xliff:g id="seconds">%d</xliff:g> Sekunde</item>
-	        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> Sekunden</item>
-	    </plurals>
-	    <string name="button_timeout_enabled">Für <xliff:g id="timeout">%s</xliff:g> aktiviert</string>
-	    <string name="button_timeout_disabled">Deaktiviert</string>
-	    <string name="dialog_button_timeout_title">Tastenhelligkeit-Timeout</string>
+	<plurals name="button_timeout_time">
+	    <item quantity="one"><xliff:g id="seconds">%d</xliff:g> Sekunde</item>
+	    <item quantity="other"><xliff:g id="seconds">%d</xliff:g> Sekunden</item>
+	</plurals>
+	<string name="button_timeout_enabled">Für <xliff:g id="timeout">%s</xliff:g> aktiviert</string>
+	<string name="button_timeout_disabled">Deaktiviert</string>
+	<string name="dialog_button_timeout_title">Tastenhelligkeit-Timeout</string>
 
     <!-- button settings -->
     <string name="button_volume_keys_title">Lautstärke</string>
@@ -207,6 +207,8 @@
 	<string name="bars_and_menus_category_power_menu_title">Neustartmenü</string>
 	<string name="power_menu_toggle_screenshot_title">Bildschirmfoto</string>
 	<string name="power_menu_toggle_screenshot_summary">Bildschirmfoto in Neustartmenü anzeigen</string>
+	<string name="power_menu_toggle_screenrecord_title">Bildschirmaufnahme</string>
+	<string name="power_menu_toggle_screenrecord_summary">Bildschirmaufnahme in Neustartmenü anzeigen</string>
 
 	 <!-- Active Display Notifications -->
 	 <string name="ad_settings_title">Sperrbildschirm-Benachrichtigungen</string>
